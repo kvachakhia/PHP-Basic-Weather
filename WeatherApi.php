@@ -5,7 +5,7 @@ class WeatherApi
 {
     public function GetData($city)
     {
-        $apiKey = "829f29c6306366f9b0c1b9f0f5474006";
+        $apiKey = "Your Key";
         $googleApiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" . $city . "&lang=en&units=metric&appid=" . $apiKey;
 
         $ch = curl_init();
